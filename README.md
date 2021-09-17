@@ -10,27 +10,27 @@ A Flask application to estimate linear distances from any given address to the c
 *[Final Considerations](#final-considerations)
 
 ## Definition of Done
-[x]Estimate distance between coordinates, to do so was suggested the use of yandex geocoder API (optional).
+[x] Estimate distance between coordinates, to do so was suggested the use of yandex geocoder API (optional).
 
-[x]If the given coordinate is within the Moscow Ring Road, the distance doesnt need to be estimated.
+[x] If the given coordinate is within the Moscow Ring Road, the distance doesnt need to be estimated.
 
-[x]Functions and Algorithms provided with informative comments.
+[x] Functions and Algorithms provided with informative comments.
 
-[x]Create docker container with the application (optional).
+[x] Create docker container with the application (optional).
 
-[x]Documenting the code and application readme.md.
+[x] Documenting the code and application readme.md.
 
-[x]PEP8 compliance and type annotations.
+[x] PEP8 compliance and type annotations.
 
-[x]Python version greater or equal 3.8.
+[x] Python version greater or equal 3.8.
 
-[x]Unittest and corner cases checks.
+[x] Unittest and corner cases checks.
 
-[x]Publish source code.
+[x] Publish source code.
 
-[x]Directly Blueprint.
+[x] Directly Blueprint.
 
-[x]Log results.
+[x] Log results.
 
 
 ## Tech & Tools
@@ -64,7 +64,7 @@ then make a POST on the server address. ex:
 
 JSON:
 ```
-$ {"address":"Eiffel Tower, Paris, France"}
+{"address":"Eiffel Tower, Paris, France"}
 ```
 
 Curl:
@@ -79,4 +79,4 @@ $ curl --header "Content-Type: application/json" -d "{\"address\":\"Moscow Plane
 
 3.The centroid point used as reference was estimated based on the elements of list MKAD_KM, if more elements were given the centroid probably would change its coordinates too.
 
-4. Cyrillic alphabet may cause trouble during encode/decode and api consumption, and because of that this app is using utf-8, also please, write the addresses in english.
+4.Cyrillic alphabet may cause trouble during encode/decode and api consumption, and because of that this app is using utf-8, also please, write the addresses in english.
