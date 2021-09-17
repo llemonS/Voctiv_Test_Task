@@ -2,12 +2,12 @@
 A Flask application to estimate linear distances from any given address to the centroid point of a Moscow Ring Road.
 
 ## Table of Contents
-*[Definition of Done](#definition-of-done)
-*[Tech & Tools](#tech-&-tools)
-*[Setup](#setup)
-*[Running](#running)
-*[Using](#using)
-*[Final Considerations](#final-considerations)
+* [Definition of Done](#definition-of-done)
+* [Tech & Tools](#tech-&-tools)
+* [Setup](#setup)
+* [Running](#running)
+* [Using](#using)
+* [Final Considerations](#final-considerations)
 
 ## Definition of Done
 [x] Estimate distance between coordinates, to do so was suggested the use of yandex geocoder API (optional).
